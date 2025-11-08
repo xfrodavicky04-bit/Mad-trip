@@ -1,0 +1,19 @@
+{
+  "name": "ai-trip-planner",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Trip Planner Website",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["trip", "planner", "ai", "travel"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+

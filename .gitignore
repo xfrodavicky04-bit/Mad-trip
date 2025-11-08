@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.local
+.env.production
+.DS_Store
+dist/
+build/
+*.log
+.vscode/
+.idea/
+client/node_modules/
+server/node_modules/
+client/build/
+server/dist/
+.vercel
+*.pem
